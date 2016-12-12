@@ -9,7 +9,7 @@
 }
 
 .custom-wrapper {
-    background-color: gray;
+    background-color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     height: 2.1em;
     overflow: hidden;
@@ -94,6 +94,16 @@ p {
     text-align:justify;
 }
 
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
 /* NAVBAR end */
 
 /* LANDING PAGE start */
@@ -115,22 +125,60 @@ p {
 
 /* LANDING PAGE end */
 
-/* CONTENT start */
+/* INTRO start */
 
 .intro {
-    background-color: gray;
+    background-color: #FFFFFF;
 }
 
-.content_textbox {
-    background-color: gray;
+.content_textbox_intro {
+    background-color: #FFFFFF;
     text-align: left;
 }
 
-.content_textbox h2 {
-    background-color: gray;
+.content_textbox_intro h2 {
+    background-color: #FFFFFF;
     text-align: center;
     padding-bottom: 0;
 }
 
+/* INTRO end */
 
-/* CONTENT end */
+/* SKILLS start */
+.content_textbox_skills {
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.content_textbox_skills h2 {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.content_textbox_skills h3 {
+    text-align: center;
+}
+
+@media (min-width: 47.999em) {
+    .content_textbox_skills h3 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .content_textbox_skills h3 {
+        text-align: left;
+    }
+}
+
+/* FOOTER start */
+
+footer {
+    padding: 20px 0 20px 0;
+}
+
+#signature {
+    text-align: center;
+}
