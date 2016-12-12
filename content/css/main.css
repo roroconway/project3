@@ -85,6 +85,15 @@
 
 }
 
+/* MY BASE CSS */
+
+#tab { display:inline-block; 
+       margin-left: 40px; }
+
+p {
+    text-align:justify;
+}
+
 /* NAVBAR end */
 
 /* LANDING PAGE start */
@@ -108,7 +117,7 @@
 
 /* CONTENT start */
 
-.content {
+.intro {
     background-color: gray;
 }
 
@@ -120,6 +129,7 @@
 .content_textbox h2 {
     background-color: gray;
     text-align: center;
+    padding-bottom: 0;
 }
 
 

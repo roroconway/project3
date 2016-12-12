@@ -29,17 +29,15 @@
 </div>
 
 <!-- SECTION 1 -->
-<div class="pure-g content">
+<div class="pure-g intro">
 	<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
 		<div class="l-box content_textbox">
 			<h2>EDUCATION</h2>
 			<h3>UNIVERSITY OF ROCHESTER, NY</h3>
 			<h4>BA DIGITAL MEDIA | JOURNALISM MINOR</br>Class of 2017</h4>
 			<p>Exploring intersts in:</p>
-			<ul>
-				<li>International Relations</li>
-				<li>Brain and Cognitive Sciences</li>
-			</ul>
+				<p>International Relations</br>
+				Brain and Cognitive Sciences</p>
 		</div>
 	</div>
 
@@ -64,14 +62,33 @@
 		</div>
 	</div>
 
-    <div class="pure-u-1 pure-u-md-2-3 pure-u-lg-2-3">
+    <div class="pure-u-1 pure-u-md-1 pure-u-lg-2-3">
     	<img class="pure-img" src="content/images/personalpic.jpg" alt="surfing cover photo">
     </div>
 
-    <div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+    <div class="pure-u-1 pure-u-md-1 pure-u-lg-1-3">
 		<div class="l-box content_textbox">
 			<h2>EXPERIENCE</h2>
-</div>
+
+			<h3>RESOURCE MAGAZINE</h3>
+			<p><b>CONTENT INTERN</b></br>Brooklyn, NY | Jun'16 - Aug'16</p>
+			<p>Authored topical articles for online editorial and summer 16’ print edition. 
+			Produced “Behind The Scenes” photo and video content to promote Resource Mag.
+			Assistant to CEO and Editor-in-Chief in office administration and on set / in studio.</p>
+
+			<h3>CAMPUS TIMES</h3>
+			<p><b>SPORTS WRITER</b></br>Rochester, NY | Sep'14 - Dec'15</p>
+			<p>Reported on sporting events happening across campus, the U.S.A. and the World.
+				Researched into form, statistics and public opinion to write a balanced article.</p>
+			<p><b>PHOTOGRAPHER</b></br>Rochester, NY | Sep'14 - Dec'15</p>
+			<p>Reported on sporting events happening across campus, the U.S.A. and the World.
+				Researched into form, statistics and public opinion to write a balanced article.</p>
+		</div>
+	</div>
+</div> <!-- end of SECTION 1 -->
+
+<!-- SECTION 2 -->
+
 
 </body>
 </html>
