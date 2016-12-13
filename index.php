@@ -13,7 +13,6 @@
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
-
 </head>
 <body>
 
@@ -26,7 +25,7 @@
     	<div class="l-box" id="intro">
     		<h1>RUAIRI CONWAY</h1>
   			</br>
-    		<a href="index.php" id="main_link"><h2>PHOTO  |  VIDEO</h2></a>
+    		<a href="portfolio.php" id="main_link"><h2>PHOTO  |  VIDEO</h2></a>
     	</div>
     </div>
 
@@ -118,12 +117,14 @@
 			<h2>SKILLS</h2>
 		</div>
 	</div>
+</div>
+
+<div class="pure-g skills">
 	<div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
 		<div class="l-box content_textbox_skills">
 			<h3>ADOBE</br>SOFTWARE</h3>
 		</div>
 	</div>
-
     <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img logo" src="content/images/id.png" alt="InDesign logo">
     </div>
@@ -155,9 +156,32 @@
     <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img" src="content/images/ai.png" alt="Illustrator logo">
     </div>
+</div>
 
+<div class="pure-g skills spacing_skills">
+    <div class="pure-u-1 pure-u-md-1-6 pure-u-lg-1-6">
+		<div class="l-box content_textbox_skills">
+			<h3>WEB</br>DESIGN</h3>
+		</div>
+	</div>
 
+	<div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
+    	<img class="pure-img logo" src="http://workshops.galvanize.com/learn-to-code/images/web/HTML5_Logo.png" alt="HTML5 logo">
+    </div>
 
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12 ">
+    </div>
+
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
+    	<img class="pure-img logo" src="http://www.yourlogoresources.com/wp-content/uploads/2013/03/css3-logo.png" alt="CSS3 logo">
+    </div>
+
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12 ">
+    </div>
+
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
+    	<img class="pure-img logo" src="http://jordantsmith.net/images/javascriptlogo.png" alt="CSS3 logo">
+    </div>
 </div> <!-- end of SECTION 2 -->
 
 <!-- FOOTER -->

@@ -113,13 +113,9 @@ h3 {
     padding: 16px;
 }
 
-#intro {
-    padding-top: 25px;
-    text-align: center;
-}
-
 #main_link {
     text-decoration: none;
+    text-align: center;
 }
 
 @media (max-width: 47.999em) {
@@ -165,6 +161,10 @@ h3 {
     text-align: center;
 }
 
+.spacing_skills {
+    padding-top: 50px;
+}
+
 @media (min-width: 47.999em) {
     .content_textbox_skills h3 {
         padding-bottom: 0;
@@ -176,6 +176,12 @@ h3 {
     .content_textbox_skills h3 {
         text-align: left;
     }
+}
+
+/* PORTFOLIO */
+#port_title {
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /* FOOTER start */
