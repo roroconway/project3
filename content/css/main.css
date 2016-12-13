@@ -9,6 +9,10 @@
     font-size: 16px;
 }
 
+.pure-menu a:active {
+    background-color: gray;
+}
+
 .custom-wrapper {
     background-color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
@@ -105,6 +109,10 @@ h3 {
     margin-top: 0;
 }
 
+.current {
+    background-color: gray;
+}
+
 /* NAVBAR end */
 
 /* LANDING PAGE start */
@@ -128,8 +136,11 @@ h3 {
 
 /* INTRO start */
 
-.intro {
+
+
+#intro p {
     background-color: #FFFFFF;
+    text-align: right;
 }
 
 .content_textbox_intro {
@@ -185,21 +196,31 @@ h3 {
 }
 
 .port_section {
-
+    padding: 10px 0 10px 0;
 }
 
 #bw_section {
-    
+
 }
 
-.port_heading {
+.port_link {
     text-decoration: none;
 }
 
 .port_description {
     text-align: justify;
-    padding: 40px 20px 0 20px;
+    padding: 0 20px 0 20px;
     margin: auto 0;
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* CONTACT */
+
+.pure-form {
+    padding-left: 100px;
 }
 
 /* FOOTER start */

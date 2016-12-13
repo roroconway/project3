@@ -17,16 +17,33 @@
 <body>
 
 <!-- NAVBAR -->
+
 <?php include "navbar.php";?>
 
 <!-- TITLE -->
 <div class="pure-g contact">
-	<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
+	<div class="pure-u-1 pure-u-md-1 pure-u-lg-1">
     	<div class="l-box">
     		<h1>CONTACT</h1>
     	</div>
     </div>
 </div>
+
+<form class="pure-form">
+    <fieldset class="pure-group">
+        <input type="text" class="pure-input-1-3" placeholder="FULL NAME" id="name">
+        <input type="email" class="pure-input-1-3" placeholder="EMAIL" id="email">
+        <input type="number" class="pure-input-1-3" placeholder="PHONE NUMBER" id="phone">
+    </fieldset>
+    
+    <fieldset class="pure-group">
+        <textarea class="pure-input-1-3" placeholder="MESSAGE" id="message"></textarea>
+    </fieldset>
+    
+    <button type="submit" class="pure-button pure-input-1-3 pure-button-primary">SUBMIT</button>
+</form>
+
+<?php include "footer.php";?>
 
 </body>
 </html>

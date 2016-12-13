@@ -8,11 +8,11 @@
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-min.css">
-	<!-- MY CSS -->
-	<link rel="stylesheet" href="content/css/main.css">
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
+	<!-- MY CSS -->
+	<link rel="stylesheet" href="content/css/main.css">
 </head>
 <body>
 
@@ -25,7 +25,9 @@
     	<div class="l-box" id="intro">
     		<h1>RUAIRI CONWAY</h1>
   			</br>
-    		<a href="portfolio.php" id="main_link"><h2>PHOTO  |  VIDEO</h2></a>
+    		<h2>WELCOME</h2>
+    		<p>This is a site that I built from scratch using</p>
+    		<p>HTML | CSS | JavaScript</p>
     	</div>
     </div>
 
