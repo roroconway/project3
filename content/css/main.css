@@ -6,6 +6,7 @@
 
 .pure-menu a {
     color: #000000;
+    font-size: 16px;
 }
 
 .custom-wrapper {
@@ -115,6 +116,10 @@ h3 {
 #intro {
     padding-top: 25px;
     text-align: center;
+}
+
+#main_link {
+    text-decoration: none;
 }
 
 @media (max-width: 47.999em) {

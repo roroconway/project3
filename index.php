@@ -4,10 +4,16 @@
 	<title>RC PORTFOLIO</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS framework "PURE" -->
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-min.css">
+	<!-- MY CSS -->
 	<link rel="stylesheet" href="content/css/main.css">
+	<!-- SLIDESHOW -->
+	<link rel="stylesheet" href="ism/css/my-slider.css"/>
+	<script src="ism/js/ism-2.2.min.js"></script>
+
 </head>
 <body>
 
@@ -20,11 +26,29 @@
     	<div class="l-box" id="intro">
     		<h1>RUAIRI CONWAY</h1>
   			</br>
-    		<a href="."><h2>PHOTO  |  VIDEO</h2></a>
+    		<a href="index.php" id="main_link"><h2>PHOTO  |  VIDEO</h2></a>
     	</div>
     </div>
+
     <div class="pure-u-1 pure-u-md-2-3 pure-u-lg-2-3">
-    	<img class="pure-img" src="content/images/landing.jpg" alt="surfing cover photo">
+	    <div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="10000" data-radios="false" id="my-slider">
+		  <ol>
+		    <li>
+		      <img src="ism/image/slides/_u/1481590624589_533847.jpg">
+		    </li>
+		    <li>
+		    <a href="" target="_self">
+		      <img src="ism/image/slides/_u/1481591406401_876702.jpg">
+		    </a>
+		    </li>
+		    <li>
+		      <img src="ism/image/slides/_u/1481591135275_575595.jpg">
+		    </li>
+		    <li>
+		      <img src="ism/image/slides/_u/1481591294208_322674.jpg">
+		    </li>
+		  </ol>
+		</div>
     </div>
 </div>
 
@@ -99,21 +123,41 @@
 			<h3>ADOBE</br>SOFTWARE</h3>
 		</div>
 	</div>
-    <div class="pure-u-1-5 pure-u-md-1-6 pure-u-lg-1-6">
+
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img logo" src="content/images/id.png" alt="InDesign logo">
     </div>
-    <div class="pure-u-1-5 pure-u-md-1-6 pure-u-lg-1-6">
+
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12">
+    </div>
+
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img logo" src="content/images/lr.png" alt="Lightroom logo">
     </div>
-    <div class="pure-u-1-5 pure-u-md-1-6 pure-u-lg-1-6">
+
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12">
+    </div>
+    
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img logo" src="content/images/pr.png" alt="Premiere logo">
     </div>
-    <div class="pure-u-1-5 pure-u-md-1-6 pure-u-lg-1-6">
+
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12">
+    </div>
+    
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img logo" src="content/images/ps.png" alt="Photoshop logo">
     </div>
-    <div class="pure-u-1-5 pure-u-md-1-6 pure-u-lg-1-6">
+
+    <div class="pure-u-0 pure-u-md-1-12 pure-u-lg-1-12 ">
+    </div>
+    
+    <div class="pure-u-1-5 pure-u-md-1-12 pure-u-lg-1-12">
     	<img class="pure-img" src="content/images/ai.png" alt="Illustrator logo">
     </div>
+
+
+
 </div> <!-- end of SECTION 2 -->
 
 <!-- FOOTER -->
