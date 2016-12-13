@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/pure-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-min.css">
 	<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-min.css">
+	<!-- MY CSS -->
+	<link rel="stylesheet" href="content/css/main.css">
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
-	<!-- MY CSS -->
-	<link rel="stylesheet" href="content/css/main.css">
+	<!-- FORM VALIDATION -->
+	<?php include "formvalidation.php";?>
 </head>
 <body>
 

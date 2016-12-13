@@ -29,11 +29,11 @@
     </div>
 </div>
 
-<form class="pure-form">
+<form name="myform" class="pure-form">
     <fieldset class="pure-group">
-        <input type="text" class="pure-input-1-3" placeholder="FULL NAME" id="name">
-        <input type="email" class="pure-input-1-3" placeholder="EMAIL" id="email">
-        <input type="number" class="pure-input-1-3" placeholder="PHONE NUMBER" id="phone">
+        <input type="text" class="pure-input-1-3" placeholder="FULL NAME" id="name" required>
+        <input type="email" class="pure-input-1-3" placeholder="EMAIL" id="email" name="email" required>
+        <input type="number" class="pure-input-1-3" placeholder="PHONE NUMBER" id="phone" required>
     </fieldset>
     
     <fieldset class="pure-group">
