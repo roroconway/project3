@@ -184,6 +184,24 @@ h3 {
     margin-top: 0;
 }
 
+.port_section {
+
+}
+
+#bw_section {
+    
+}
+
+.port_heading {
+    text-decoration: none;
+}
+
+.port_description {
+    text-align: justify;
+    padding: 40px 20px 0 20px;
+    margin: auto 0;
+}
+
 /* FOOTER start */
 
 footer {
