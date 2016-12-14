@@ -13,8 +13,6 @@
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
-	<!-- FORM VALIDATION -->
-	<?php include "formvalidation.php";?>
 </head>
 <body>
 

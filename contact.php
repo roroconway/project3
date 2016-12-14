@@ -13,6 +13,8 @@
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
+	<!-- FORM VALIDATION -->
+	
 </head>
 <body>
 
@@ -29,18 +31,27 @@
     </div>
 </div>
 
-<form name="myform" class="pure-form">
-    <fieldset class="pure-group">
-        <input type="text" class="pure-input-1-3" placeholder="FULL NAME" id="name" required>
-        <input type="email" class="pure-input-1-3" placeholder="EMAIL" id="email" name="email" required>
-        <input type="number" class="pure-input-1-3" placeholder="PHONE NUMBER" id="phone" required>
-    </fieldset>
-    
-    <fieldset class="pure-group">
-        <textarea class="pure-input-1-3" placeholder="MESSAGE" id="message"></textarea>
-    </fieldset>
-    
-    <button type="submit" class="pure-button pure-input-1-3 pure-button-primary">SUBMIT</button>
+<form method="post" action="database-write.php">
+	<div>
+		<label for="name"></label>
+		<input type="text" placeholder="NAME" name="name" id="name">
+	</div>
+
+	<div>
+		<label for="email"></label>
+		<input type="text" placeholder="EMAIL" name="email" id="email">
+	</div>
+
+	<div>
+		<label for="phone"></label>
+		<input type="tel" placeholder="PHONE" name="phone" id="phone">
+	</div>
+
+	<div>
+		<textarea placeholder="MESSAGE" name="message" id="message"></textarea>
+	</div>
+
+	<input type="submit" value="submit">
 </form>
 
 <?php include "footer.php";?>
