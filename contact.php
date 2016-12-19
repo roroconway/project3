@@ -32,27 +32,30 @@
     </div>
 </div>
 
-<form method="post" action="database-write.php">
-	<div>
-		<label for="name"></label>
-		<input type="text" placeholder="NAME" name="name" id="name">
-	</div>
+<form  class="pure-form pure-form-aligned" method="post" action="database-write.php">
+	<fieldset>
+		<div class="pure-control-group">
+			<label for="name">Name</label>
+			<input type="text" placeholder="NAME" name="name" id="name">
+		</div>
 
-	<div>
-		<label for="email"></label>
-		<input type="text" placeholder="EMAIL" name="email" id="email">
-	</div>
+		<div class="pure-control-group">
+			<label for="email">Email</label>
+			<input type="text" placeholder="EMAIL" name="email" id="email">
+		</div>
 
-	<div>
-		<label for="phone"></label>
-		<input type="tel" placeholder="PHONE" name="phone" id="phone">
-	</div>
+		<div class="pure-control-group">
+			<label for="phone">Phone</label>
+			<input type="tel" placeholder="PHONE" name="phone" id="phone">
+		</div>
 
-	<div>
-		<textarea placeholder="MESSAGE" name="message" id="message"></textarea>
-	</div>
+		<div class="pure-control-group">
+			<label for="message">Message</label>
+			<textarea placeholder="MESSAGE" name="message" id="message"></textarea>
+		</div>
 
-	<input type="submit" value="submit">
+		<input class="pure-button pure-button-primary" type="submit" value="submit" id="button">
+	</fieldset>
 </form>
 
 <?php include "footer.php";?>

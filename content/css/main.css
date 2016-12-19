@@ -309,15 +309,33 @@ ul {
 /* CONTACT */
 
 .pure-form {
-    padding-left: 100px;
 }
 
+#button {
+    margin-left: 180px;
+}
+
+@media (max-width: 480px) {
+    #button {
+        margin-left: 10px;
+    }
+
+    .pure-control-group {
+        padding-left: 10px;
+    }
+}
 /* FOOTER start */
 
 footer {
     padding: 20px 0 20px 0;
 }
 
+.footer-color {
+    background-color: #E74E4E;
+}
+
+
 #signature {
     text-align: center;
+    color: #FFFFFF;
 }
