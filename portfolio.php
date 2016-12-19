@@ -13,6 +13,9 @@
 	<!-- SLIDESHOW -->
 	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<script src="ism/js/ism-2.2.min.js"></script>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
 </head>
 <body>
 

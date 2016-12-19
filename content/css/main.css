@@ -1,22 +1,29 @@
 /* NAVBAR start */
 
 #menu {
-    max-height: 100px;
+    max-height: 140px;
 }
 
 .pure-menu a {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
 }
 
 .pure-menu a:active {
-    background-color: gray;
+    background-color: #E74E4E;
+    color: #000000
+}
+
+.pure-menu-item a:hover {
+    background-color: #E74E4E;
 }
 
 .custom-wrapper {
-    background-color: #FFFFFF;
+    background-color: #2273AA;
     -webkit-font-smoothing: antialiased;
-    height: 2.1em;
+    height: 2em;
     overflow: hidden;
     -webkit-transition: height 0.5s;
     -moz-transition: height 0.5s;
@@ -43,7 +50,7 @@
 }
 
 .custom-toggle .bar {
-    background-color: #777;
+    background-color: #FFFFFF;
     display: block;
     width: 20px;
     height: 2px;
@@ -90,23 +97,36 @@
 
 }
 
-/* MY BASE CSS */
+/* BASE CSS */
 
-#tab { display:inline-block; 
-       margin-left: 40px; }
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    margin-top: 0;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 p {
     text-align:justify;
+    font-family: 'Raleway', sans-serif;
 }
 
 ul {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
-}
-
-h3 {
-    margin-top: 0;
 }
 
 .current {
@@ -136,7 +156,10 @@ h3 {
 
 /* INTRO start */
 
-
+#intro h1 {
+    text-align: center;
+    letter-spacing: 3px;
+}
 
 #intro p {
     background-color: #FFFFFF;
@@ -189,6 +212,57 @@ h3 {
     }
 }
 
+#education {
+    background-color: #57CBFF;
+    color: #FFFFFF;
+    max-height: 280px;
+}
+
+#exhibits {
+    background-color: #2273AA;
+    color: #FFFFFF;
+    max-height: 280px;
+}
+
+#awards {
+    background-color: #263650;
+    color: #FFFFFF;
+    max-height: 280px;
+}
+
+#experience {
+    background-color: #E74E4E;
+    color: #FFFFFF;
+}
+
+.experience-height {
+    min-height: 550px;
+}
+
+.index-shadow {
+    -webkit-box-shadow: inset -3px 0px 10px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    inset -3px 0px 10px 0px rgba(50, 50, 50, 0.3);
+    box-shadow:         inset -3px 0px 10px 0px rgba(50, 50, 50, 0.3);
+}
+
+.index-shadow-up {
+    -webkit-box-shadow: inset 0px 30px 10px -25px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    inset 0px 30px 10px -25px rgba(50, 50, 50, 0.3);
+    box-shadow:         inset 0px 30px 10px -25px rgba(50, 50, 50, 0.3);
+}
+
+.index-shadow-side {
+    -webkit-box-shadow: inset -28px -28px 10px -25px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    inset -28px -28px 10px -25px rgba(50, 50, 50, 0.3);
+    box-shadow:         inset -28px -28px 10px -25px rgba(50, 50, 50, 0.3);
+}
+
+.index-shadow-down {
+    -webkit-box-shadow: inset 0px -28px 10px -25px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    inset 0px -28px 10px -25px rgba(50, 50, 50, 0.3);
+    box-shadow:         inset 0px -28px 10px -25px rgba(50, 50, 50, 0.3);
+}
+
 /* PORTFOLIO */
 #port_title {
     padding-top: 0;
@@ -214,7 +288,23 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .portrait-experience {
+        max-height: none;
+    }   
+    #education {
+        max-height: none;
+    }
 
+    #exhibits {
+        max-height: none;
+    }
+
+    #awards {
+        max-height: none;
+    }
+    .experience-height {
+    min-height: none;
+    }
 }
 
 /* CONTACT */
