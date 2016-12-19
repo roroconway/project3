@@ -18,5 +18,5 @@
 
  	mysqli_close($connection);
 
- 	header("Location: index.php"); 
+ 	header("Location: database-read.php"); 
 ?>
