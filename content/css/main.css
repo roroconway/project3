@@ -313,6 +313,8 @@ ul {
 
 #button {
     margin-left: 180px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #2273AA;
 }
 
 @media (max-width: 480px) {
@@ -324,6 +326,11 @@ ul {
         padding-left: 10px;
     }
 }
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /* FOOTER start */
 
 footer {

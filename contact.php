@@ -16,6 +16,8 @@
 	<!-- FONTS -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
+	<!-- FORM VALIDATION -->
+	<?php include "content/js/formvalidation.php";?>
 </head>
 <body>
 
@@ -32,26 +34,26 @@
     </div>
 </div>
 
-<form  class="pure-form pure-form-aligned" method="post" action="database-write.php">
+<form  class="pure-form pure-form-aligned" method="post" action="database-write.php" name="myForm" onsubmit="return(validateEmail());">
 	<fieldset>
 		<div class="pure-control-group">
-			<label for="name">Name</label>
-			<input type="text" placeholder="NAME" name="name" id="name">
+			<label for="name">NAME</label>
+			<input type="text" name="name" id="name" required>
 		</div>
 
 		<div class="pure-control-group">
-			<label for="email">Email</label>
-			<input type="text" placeholder="EMAIL" name="email" id="email">
+			<label for="email">EMAIL</label>
+			<input type="text" name="email" id="email" required>
 		</div>
 
 		<div class="pure-control-group">
-			<label for="phone">Phone</label>
-			<input type="tel" placeholder="PHONE" name="phone" id="phone">
+			<label for="phone">PHONE</label>
+			<input type="tel" name="phone" id="phone" required>
 		</div>
 
 		<div class="pure-control-group">
-			<label for="message">Message</label>
-			<textarea placeholder="MESSAGE" name="message" id="message"></textarea>
+			<label for="message">MESSAGE</label>
+			<textarea name="message" id="message"></textarea>
 		</div>
 
 		<input class="pure-button pure-button-primary" type="submit" value="submit" id="button">
